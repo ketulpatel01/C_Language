@@ -1,0 +1,94 @@
+//Multiply by 50
+#include <stdio.h>
+int main()
+{
+    int number=10;
+    printf("%d",number*50);
+    return 0;
+}
+
+
+//Product of six & find product
+#include <stdio.h>
+int main()
+{
+    int one=10, two=20, three=30, four=40, five=50, six=60;
+    printf("%d",one*two*three*four*five*six);
+    return 0;
+}
+
+
+//Square and sum
+#include <stdio.h>
+int main()
+{
+    int one=2, two=3, three=4;
+    int sum = (one*one) + (two*two) + (three*three);
+    printf("%d",sum);
+    return 0;
+}
+
+
+//Find X
+#include <stdio.h>
+int main()
+{
+    int X;
+    printf("Enter value ox x: ");
+    scanf("%d",&X);
+    printf("%d",X*3+10);
+    return 0;
+}
+
+
+//Cube of a number
+#include <stdio.h>
+int main()
+{
+    int N=2;
+    printf("%d",N*N*N);
+    return 0;
+}
+
+
+//Operation on number
+#include <stdio.h>
+int main()
+{
+    int number=10;
+    printf("%d",number*3+7-10);
+    return 0;
+}
+
+
+//Squre it
+#include <stdio.h>
+int main()
+{
+    int N=10;
+    printf("%d",N*N);
+    return 0;
+}
+
+
+//Double all
+#include <stdio.h>
+int main()
+{
+    int one=10, two=20, three=30, four=40, five=50;
+    int sum = (one*2) + (two*2) + (three*2) + (four*2) + (five*2);
+    printf("%d",sum);
+    return 0;
+}
+
+
+//Find X again
+#include <stdio.h>
+int main()
+{
+    int X;
+    printf("Enter value ox x: ");
+    scanf("%d",&X);
+    printf("%d",X*7*7);
+    return 0;
+}
